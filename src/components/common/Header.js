@@ -23,11 +23,11 @@ const styles = {
 		paddingTop: 15,
 		shadowColor: '#000',
 		shadowOffset: { width: 0, height: 2 },
-		shadowOpacity: 0.9,
+		shadowOpacity: 0.5,
 		elevation: 2,
 		position: 'relative'
 	}
 };
 
 //Make the component available to other parts of the App
-export default Header;
+export { Header };
